@@ -1,0 +1,36 @@
+{
+	"report":"flow_report_v0",
+	"topic":"download_flow",
+	"node_list":
+	[
+		{
+		  "event_seg":"duration"
+		}
+	],
+	"segments":
+	[
+		{
+			"seg_name":"downloads",
+			"split":true,
+			"node_list":
+			[
+				{
+					"event_seg":"url",
+					"required":false
+				},
+				{
+					"event_seg":"user_agent",
+				  	"required":false
+				},
+				{
+					"event_seg":"p2p_download",
+					"json_seg":"p2pDown"
+				},
+				{
+					"event_seg":"cdn_download",
+					"json_seg":"httpDown"
+				}
+			]
+		}
+	]
+}

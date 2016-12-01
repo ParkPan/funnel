@@ -1,0 +1,29 @@
+{
+  "report": "seed_info_v1",
+  "topic": "seed_flow",
+  "node_list": [
+    {
+      "event_seg": "peer_id"
+    }
+  ],
+  "segments": [
+    {
+      "seg_name": "flow",
+      "split": true,
+      "node_list": [
+        {
+          "event_seg": "file_id"
+        },
+        {
+          "event_seg": "file_type"
+        },
+        {
+          "event_seg": "upload"
+        },
+        {
+          "event_seg": "download"
+        }
+      ]
+    }
+  ]
+}

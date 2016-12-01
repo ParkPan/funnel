@@ -1,0 +1,25 @@
+{
+	"report":"fod_report_v1",
+	"topic":"fod_report",
+	"node_list":
+	[
+		{
+			"event_seg":"peer_id"
+		},
+		{
+			"event_seg":"url"
+		},
+		{
+			"event_seg":"file_id",
+			"required":false
+		},
+		{
+			"event_seg":"fsize",
+			"required":false
+		},
+		{
+			"event_seg":"play_type",
+		  	"json_seg":"fod_type"
+		}
+	]
+}

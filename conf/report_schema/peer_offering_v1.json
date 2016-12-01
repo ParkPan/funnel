@@ -1,0 +1,24 @@
+{
+	"report":"peer_offering_v1",
+	"topic":"peer_offering",
+	"node_list":
+	[
+		{
+			"event_seg":"peer_id"
+		},
+		{
+			"event_seg":"rps"
+		},
+		{
+			"event_seg":"delay"
+		},
+		{
+			"event_seg":"bandwidth",
+			"required":false
+		},
+		{
+		  "event_seg":"play_type",
+		  "required":false
+		}
+	]
+}

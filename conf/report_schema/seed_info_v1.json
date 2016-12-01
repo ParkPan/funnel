@@ -1,0 +1,18 @@
+{
+  "report": "seed_info_v1",
+  "topic": "seed_info",
+  "node_list": [
+    {
+      "event_seg": "peer_id"
+    },
+    {
+      "event_seg": "upload_connections"
+    },
+    {
+      "event_seg": "accept_connections"
+    },
+    {
+      "event_seg": "denied_connections"
+    }
+  ]
+}

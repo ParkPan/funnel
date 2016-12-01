@@ -1,0 +1,25 @@
+{
+	"report":"play_qos",
+	"topic":"qos_startup",
+	"node_list":
+	[
+		{
+			"event_seg":"peer_id"
+		},
+		{
+			"event_seg":"url"
+		},
+		{
+			"event_seg":"vvid"
+		},
+		{
+			"event_seg":"play_type",
+			"json_seg":"type"
+		},
+		{
+			"json_seg":"startup_delay",
+			"event_seg":"duration",
+			"can_ignore":true
+		}
+	]
+}

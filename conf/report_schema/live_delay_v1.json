@@ -1,0 +1,41 @@
+{
+  "report":"live_delay_v1",
+  "topic":"live_delay",
+  "skip_timestamp":true,
+  "node_list":
+  [
+    {
+      "event_seg":"peer_id"
+    },
+    {
+      "event_seg":"file_id"
+    },
+    {
+      "event_seg":"file_url"
+    },
+    {
+      "event_seg":"play_type",
+      "json_seg":"source_type"
+    }
+  ],
+  "segments":
+  [
+    {
+      "seg_name": "delays",
+      "split": true,
+      "node_list": [
+        {
+          "event_seg": "offset",
+          "required": false
+        },
+        {
+          "event_seg": "delay"
+        },
+        {
+          "event_seg": "timestamp",
+          "json_seg":"absolute_time"
+        }
+      ]
+    }
+   ]
+}

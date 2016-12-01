@@ -1,0 +1,13 @@
+{
+	"report":"idc_connections",
+	"topic":"idc_connections",
+	"node_list":
+	[
+		{
+			"event_seg":"peer_id"
+		},
+		{
+			"event_seg":"conn_peer_count"
+		}
+	]
+}

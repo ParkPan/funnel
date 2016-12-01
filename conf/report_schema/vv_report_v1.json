@@ -1,0 +1,24 @@
+{
+	"report":"vv_report_v1",
+	"topic":"vv_report",
+	"node_list":
+	[
+		{
+			"event_seg":"peer_id"
+		},
+		{
+			"event_seg":"url"
+		},
+		{
+			"event_seg":"vvid"
+		},
+		{
+			"event_seg":"username",
+			"required":false
+		},
+		{
+			"event_seg":"play_type",
+			"json_seg":"type"
+		}
+	]
+}

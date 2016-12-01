@@ -1,0 +1,16 @@
+{
+  "report":"push_state_v1",
+  "topic":"push_state",
+  "node_list":
+  [
+    {
+      "event_seg":"peer_id"
+    },
+    {
+      "event_seg":"file_id"
+    },
+    {
+      "event_seg":"state"
+    }
+  ]
+}

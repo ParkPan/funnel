@@ -1,0 +1,13 @@
+{
+	"report":"flow_report_v0",
+	"topic":"upload_flow",
+	"node_list":
+	[
+		{
+			"event_seg":"duration"
+		},
+		{
+			"event_seg":"upload"
+		}
+	]
+}
